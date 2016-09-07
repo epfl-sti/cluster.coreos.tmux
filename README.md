@@ -9,7 +9,7 @@ All content below are copied form there !
 
 On your local system (or system with a build environment), create `build-tmux.sh` with the following contents:
 
-```
+```bash
 #!/usr/bin/env bash
 pushd $(dirname $0) > /dev/null; CURRABSPATH=$(readlink -nf "$(pwd)"); popd > /dev/null; # Get the directory in which the script resides
 set -x
