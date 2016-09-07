@@ -5,7 +5,7 @@ tmux binary for CoreOS from [here](https://groups.google.com/d/topic/coreos-dev/
 All content below are copied form there !
 
 
-## Build a static TMUX (modified from this)
+## Build a static TMUX ([modified from this](http://blog.assarbad.net/20140415/fully-static-build-of-tmux-using-libc-musl-for-linux/))
 
 On your local system (or system with a build environment), create `build-tmux.sh` with the following contents:
 
